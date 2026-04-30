@@ -1,6 +1,8 @@
-﻿namespace Kolokwium1.Services;
+﻿using Kolokwium1.DTOs;
 
-public class IDbService
+namespace Kolokwium1.Services;
+
+public interface IDbService
 {
-    
+    Task<GetMakersDetailsDto> GetMakersDetailsAsync(int makersId);
 }

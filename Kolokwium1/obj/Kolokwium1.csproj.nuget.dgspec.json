@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Kolokwium1\\Kolokwium1\\Kolokwium1.csproj": {}
+    "C:\\Users\\s32847\\RiderProjects\\Kolokwium1\\Kolokwium1\\Kolokwium1.csproj": {}
   },
   "projects": {
-    "Z:\\Kolokwium1\\Kolokwium1\\Kolokwium1.csproj": {
+    "C:\\Users\\s32847\\RiderProjects\\Kolokwium1\\Kolokwium1\\Kolokwium1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Kolokwium1\\Kolokwium1\\Kolokwium1.csproj",
+        "projectUniqueName": "C:\\Users\\s32847\\RiderProjects\\Kolokwium1\\Kolokwium1\\Kolokwium1.csproj",
         "projectName": "Kolokwium1",
-        "projectPath": "Z:\\Kolokwium1\\Kolokwium1\\Kolokwium1.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "Z:\\Kolokwium1\\Kolokwium1\\obj\\",
+        "projectPath": "C:\\Users\\s32847\\RiderProjects\\Kolokwium1\\Kolokwium1\\Kolokwium1.csproj",
+        "packagesPath": "C:\\Users\\s32847\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s32847\\RiderProjects\\Kolokwium1\\Kolokwium1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\s32847\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,6 +58,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.12, )"
+            },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[10.1.7, )"
@@ -76,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Admin\\.dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
